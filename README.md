@@ -1,6 +1,6 @@
 # Text to Morse Code Translator
 
-A simple command-line tool written in Python for encoding text into Morse code and decoding Morse code back into original text. This project was built for practice of publishing a project online.
+A simple command-line tool written in Python for encoding text into Morse code and decoding Morse code back into original text. This project was built for practice for publishing a project online.
 
 ## Features
 
@@ -37,13 +37,17 @@ python -m venv venv
 
 ## Usage
 
-Run the `main.py` script from your terminal:
+After setting up the virtual environment, run the `main.py` script from the project's root directory:
 
 ```bash
-python3 main.py
+# On MacOS/Linux
+python3 src/main.py
+
+# On Windows
+python \src\main.py
 ```
 
-You will be greated by the program's interface and prompted to enter either the text or the Morse code for translation. The script will automatically detect whether you want to decode or encode.
+You will be greeted by the program's interface and prompted to enter either the text or the Morse code for translation. The script will automatically detect whether you want to decode or encode.
 
 Example:
 
@@ -75,4 +79,4 @@ Quiting the program...
 
 ## License
 
-This pjocet is licensed under the MIT License. See `LICENSE` file for details.
+This project is licensed under the MIT License. See `LICENSE` file for details.
