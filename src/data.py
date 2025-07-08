@@ -7,7 +7,7 @@ Variables:
     rev_morse_dic (dict[str, str]): decoding dictionary
 """
 
-morse_dict: dict[str, str] = {
+MORSE_DICT: dict[str, str] = {
     "a": ".-",
     "b": "-...",
     "c": "-.-.",
@@ -63,4 +63,4 @@ morse_dict: dict[str, str] = {
     " ": "/",
 }
 
-rev_morse_dic: dict[str, str] = {v: k for k, v in morse_dict.items()}
+REV_MORSE_DIC: dict[str, str] = {v: k for k, v in MORSE_DICT.items()}

@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 """Text To Morse Code Translator
 
@@ -12,7 +12,7 @@ This file can also be imported as a module and contains the following functions:
     * main - the main function of the script
 """
 
-from data import morse_dict, rev_morse_dic
+from data import MORSE_DICT, REV_MORSE_DIC
 
 
 def encode(text: str) -> str:
@@ -33,7 +33,7 @@ def encode(text: str) -> str:
         str: a string of the Morse-encoded text
     """
 
-    morse: list[str] = [morse_dict.get(letter.lower(), "#") for letter in text]
+    morse: list[str] = [MORSE_DICT.get(letter.lower(), "#") for letter in text]
     return " ".join(morse)
 
 def decode(morse: str) -> str:
@@ -56,7 +56,7 @@ def decode(morse: str) -> str:
     """
 
     morse_letters: list[str] = morse.split(" ")
-    og: list[str] = [rev_morse_dic.get(ml, "#").upper() for ml in morse_letters]
+    og: list[str] = [REV_MORSE_DIC.get(ml, "#").upper() for ml in morse_letters]
     return "".join(og)
 
 def main() -> None:
