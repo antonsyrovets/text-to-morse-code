@@ -51,6 +51,8 @@ You will be greeted by the program's interface and prompted to enter either the 
 
 Example:
 
+![demo gif](./assets/demo.gif)
+
 ```bash
 Welcome to CLI Morse Code Translator!
 .-- . .-.. -.-. --- -- .
