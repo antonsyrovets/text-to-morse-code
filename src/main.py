@@ -70,7 +70,7 @@ def main() -> None:
     cont: bool = True
     while cont:
         inp_txt: str = input(("\nType text or Morse code using '.', '-', "
-                              "spaces between letters and ' / ' between words. "
+                              "spaces between letters and ' / ' between words.\n"
                               "Then hit 'Enter' for translation:\n\n"))
         
         if set(inp_txt).issubset(set(".- /#")):
