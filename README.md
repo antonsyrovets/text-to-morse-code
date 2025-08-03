@@ -4,7 +4,7 @@ A simple command-line tool written in Python for encoding text into Morse code a
 
 ## Features
 
-- Encodes / decodes latin characters (a - z), numbers (0 - 9) and basic punctuation to / from Internation Morse Code
+- Encodes / decodes latin characters (a - z), numbers (0 - 9) and basic punctuation to / from International Morse Code
 
 - Automatic detection wheather text or Morse code was entered for translation
 
